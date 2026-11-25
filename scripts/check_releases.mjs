@@ -172,8 +172,47 @@ async function probeMovieStream(movieId) {
   }
   return {
     status: 'available',
-    quality: camCount === validCount ? 'cam' : 'hd',
+    quality: camCount === validCount ? 'cam' : 'unknown',
   };
+}
+
+/**
+ * Cek tipe rilis resmi di TMDB (/movie/{id}/release_dates):
+ * type 1/2/3 = Premiere / Bioskop saja -> kalau sudah ada stream, berarti rekaman bioskop (CAM/HDCAM/TS).
+ * type 4/5/6 = Digital (WEB-DL) / Blu-ray / TV sudah rilis -> kualitas HD jernih.
+ */
+async function resolveReleaseQuality(movieId, releaseDate, streamHint) {
+  if (streamHint === 'cam') return 'cam';
+  const today = isoOffsetDays(0);
+  if (releaseDate && releaseDate > today) {
+    // Belum lewat tanggal rilis resmi sama sekali tapi sudah bocor stream -> pasti CAM / leak awal
+    return 'cam';
+  }
+  const r = await fetchJson(
+    `https://api.themoviedb.org/3/movie/${movieId}/release_dates?api_key=${TMDB_KEY}`,
+    {},
+    6500
+  );
+  if (!r.ok || !Array.isArray(r.data?.results)) {
+    return 'hd';
+  }
+  let hasAnyPastRelease = false;
+  let hasDigitalOrPhysical = false;
+  for (const country of r.data.results) {
+    for (const rel of country.release_dates || []) {
+      const dt = String(rel?.release_date || '').slice(0, 10);
+      if (!dt || dt > today) continue;
+      hasAnyPastRelease = true;
+      if (rel.type === 4 || rel.type === 5 || rel.type === 6) {
+        hasDigitalOrPhysical = true;
+        break;
+      }
+    }
+    if (hasDigitalOrPhysical) break;
+  }
+  if (hasDigitalOrPhysical) return 'hd';
+  if (hasAnyPastRelease) return 'cam';
+  return 'cam';
 }
 
 async function runPool(items, concurrency, worker) {
@@ -267,11 +306,12 @@ async function main() {
       if (feed.bootstrapped) {
         const isFreshReleaseOrUpcoming = Boolean(movie.releaseDate && movie.releaseDate >= recentCutoff);
         if (wasPending || isFreshReleaseOrUpcoming) {
+          const detectedQuality = await resolveReleaseQuality(movie.id, movie.releaseDate, quality);
           newlyDropped.push({
             id: idKey,
             title: movie.title,
             releaseDate: movie.releaseDate,
-            quality: quality || 'hd',
+            quality: detectedQuality,
             detectedAt: now,
           });
         }
