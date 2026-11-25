@@ -1,0 +1,46 @@
+name: Monitor Film Baru & Push FCM
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nyender-release-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check newly streamable movies & send FCM push
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node scripts/check_releases.mjs
+
+      - name: Commit updated release_feed.json
+        run: |
+          if git status --porcelain release_feed.json | grep -q release_feed.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add release_feed.json
+            git commit -m "chore: update release_feed.json [skip ci]"
+            git pull --rebase origin main || true
+            git push origin HEAD:main
+          fi
