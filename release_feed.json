@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795616943472,
-  "lastWakeupAt": 1795616943472,
+  "updatedAt": 1795649969916,
+  "lastWakeupAt": 1795649969916,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -83,6 +83,12 @@
       "popularity": 248.5211,
       "firstSeenAt": 1795578197872
     },
+    "1045968": {
+      "title": "The Fox",
+      "releaseDate": "2026-12-04",
+      "popularity": 3.8567,
+      "firstSeenAt": 1795649969916
+    },
     "1088548": {
       "title": "Bitter Christmas",
       "releaseDate": "2026-11-13",
@@ -97,7 +103,7 @@
     },
     "1117898": {
       "title": "The Cat in the Hat",
-      "releaseDate": "2026-10-31",
+      "releaseDate": "2026-11-06",
       "popularity": 39.9058,
       "firstSeenAt": 1795578197872
     },
@@ -250,6 +256,12 @@
       "releaseDate": "2026-11-22",
       "popularity": 73.727,
       "firstSeenAt": 1795578197872
+    },
+    "1618188": {
+      "title": "GJLS: Berapi-Api",
+      "releaseDate": "2026-11-05",
+      "popularity": 2.0379,
+      "firstSeenAt": 1795649969916
     },
     "1657112": {
       "title": "Meja Tanpa Laci",
