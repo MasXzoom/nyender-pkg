@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795578274262,
-  "lastWakeupAt": 1795578197872,
+  "updatedAt": 1795616943472,
+  "lastWakeupAt": 1795616943472,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -52,25 +52,29 @@
     1414413,
     1480276,
     64328,
-    1168320
+    1168320,
+    438631,
+    1176962,
+    1129104,
+    1532610
   ],
   "pendingMovies": {
     "1581": {
       "title": "The Holiday",
       "releaseDate": "2006-12-08",
-      "popularity": 12.8495,
+      "popularity": 12.1447,
       "firstSeenAt": 1795578197872
     },
     "656908": {
       "title": "रामायणम्",
       "releaseDate": "2026-11-06",
-      "popularity": 113.3388,
+      "popularity": 101.6534,
       "firstSeenAt": 1795578197872
     },
     "940009": {
       "title": "Ray Gunn",
       "releaseDate": "2026-12-04",
-      "popularity": 7.2541,
+      "popularity": 7.2439,
       "firstSeenAt": 1795578197872
     },
     "1003596": {
@@ -88,7 +92,7 @@
     "1103760": {
       "title": "Hamka: Awal Mula Vol. 3",
       "releaseDate": "2026-11-19",
-      "popularity": 2.6897,
+      "popularity": 2.8261,
       "firstSeenAt": 1795578197872
     },
     "1117898": {
@@ -97,16 +101,22 @@
       "popularity": 39.9058,
       "firstSeenAt": 1795578197872
     },
+    "1154730": {
+      "title": "La Gradiva",
+      "releaseDate": "2026-12-18",
+      "popularity": 5.9342,
+      "firstSeenAt": 1795616943472
+    },
     "1170608": {
       "title": "Dune: Part Three",
-      "releaseDate": "2026-12-15",
+      "releaseDate": "2026-12-18",
       "popularity": 48.0643,
       "firstSeenAt": 1795578197872
     },
     "1287520": {
       "title": "November 1963",
       "releaseDate": "2026-12-04",
-      "popularity": 6.9548,
+      "popularity": 6.1815,
       "firstSeenAt": 1795578197872
     },
     "1289720": {
@@ -121,10 +131,16 @@
       "popularity": 9.8403,
       "firstSeenAt": 1795578197872
     },
+    "1319525": {
+      "title": "จีบซ้ำซ้ำ เฮนรี่จำไม่ได้",
+      "releaseDate": "2026-10-23",
+      "popularity": 2.0506,
+      "firstSeenAt": 1795616943472
+    },
     "1375156": {
       "title": "उड़ता तीर",
       "releaseDate": "2026-10-23",
-      "popularity": 4.839,
+      "popularity": 5.0083,
       "firstSeenAt": 1795578197872
     },
     "1384528": {
@@ -136,7 +152,7 @@
     "1391239": {
       "title": "The Debut",
       "releaseDate": "2026-12-11",
-      "popularity": 7.9206,
+      "popularity": 7.5444,
       "firstSeenAt": 1795578197872
     },
     "1398505": {
@@ -147,38 +163,44 @@
     },
     "1400336": {
       "title": "Focker In-Law",
-      "releaseDate": "2026-11-21",
+      "releaseDate": "2026-11-25",
       "popularity": 48.7467,
       "firstSeenAt": 1795578197872
+    },
+    "1406492": {
+      "title": "La venganza del Charro Negro",
+      "releaseDate": "2026-10-22",
+      "popularity": 48.4911,
+      "firstSeenAt": 1795616943472
     },
     "1408207": {
       "title": "Zero A.D.: The Birth of Christ",
       "releaseDate": "2026-12-11",
-      "popularity": 4.8685,
+      "popularity": 5.1374,
       "firstSeenAt": 1795578197872
     },
     "1422041": {
       "title": "LA BOLA NEGRA",
       "releaseDate": "2026-10-16",
-      "popularity": 94.7194,
+      "popularity": 84.8727,
       "firstSeenAt": 1795578197872
     },
     "1433568": {
       "title": "粽邪4：坤蒂拉娜",
       "releaseDate": "2026-10-23",
-      "popularity": 2.8351,
+      "popularity": 2.5658,
       "firstSeenAt": 1795578197872
     },
     "1452168": {
       "title": "Behemoth!",
       "releaseDate": "2026-12-04",
-      "popularity": 7.1837,
+      "popularity": 7.8897,
       "firstSeenAt": 1795578197872
     },
     "1457866": {
       "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
       "releaseDate": "2026-11-25",
-      "popularity": 17.9344,
+      "popularity": 18.4616,
       "firstSeenAt": 1795578197872
     },
     "1461490": {
@@ -199,6 +221,12 @@
       "popularity": 58.7667,
       "firstSeenAt": 1795578197872
     },
+    "1545057": {
+      "title": "최종면접",
+      "releaseDate": "2026-11-06",
+      "popularity": 1.7314,
+      "firstSeenAt": 1795616943472
+    },
     "1561834": {
       "title": "Son Yemek",
       "releaseDate": "2026-11-18",
@@ -210,6 +238,12 @@
       "releaseDate": "2026-12-03",
       "popularity": 0.9566,
       "firstSeenAt": 1795578197872
+    },
+    "1590933": {
+      "title": "汝、星のごとく",
+      "releaseDate": "2026-11-27",
+      "popularity": 3.4278,
+      "firstSeenAt": 1795616943472
     },
     "1599184": {
       "title": "斗破苍穹剧场版：双帝之战",
@@ -260,5 +294,27 @@
       "firstSeenAt": 1795578197872
     }
   },
-  "recentDrops": []
+  "recentDrops": [
+    {
+      "id": "1176962",
+      "title": "Rose",
+      "releaseDate": "2026-12-11",
+      "quality": "cam",
+      "detectedAt": 1795616943472
+    },
+    {
+      "id": "1129104",
+      "title": "Flavia",
+      "releaseDate": "2026-12-04",
+      "quality": "cam",
+      "detectedAt": 1795616943472
+    },
+    {
+      "id": "1532610",
+      "title": "Ink",
+      "releaseDate": "2026-12-11",
+      "quality": "cam",
+      "detectedAt": 1795616943472
+    }
+  ]
 }
