@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795681635623,
-  "lastWakeupAt": 1795681635623,
+  "updatedAt": 1795719878168,
+  "lastWakeupAt": 1795719878168,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -58,7 +58,9 @@
     1129104,
     1532610,
     1400336,
-    1280115
+    1280115,
+    1458300,
+    1457866
   ],
   "pendingMovies": {
     "1581": {
@@ -70,7 +72,7 @@
     "656908": {
       "title": "रामायणम्",
       "releaseDate": "2026-11-06",
-      "popularity": 101.6534,
+      "popularity": 95.0388,
       "firstSeenAt": 1795578197872
     },
     "940009": {
@@ -100,12 +102,12 @@
     "1103760": {
       "title": "Hamka: Awal Mula Vol. 3",
       "releaseDate": "2026-11-19",
-      "popularity": 2.8261,
+      "popularity": 2.7459,
       "firstSeenAt": 1795578197872
     },
     "1117898": {
       "title": "The Cat in the Hat",
-      "releaseDate": "2026-11-06",
+      "releaseDate": "2026-10-31",
       "popularity": 35.4735,
       "firstSeenAt": 1795578197872
     },
@@ -142,13 +144,13 @@
     "1319525": {
       "title": "จีบซ้ำซ้ำ เฮนรี่จำไม่ได้",
       "releaseDate": "2026-10-23",
-      "popularity": 2.0506,
+      "popularity": 1.7519,
       "firstSeenAt": 1795616943472
     },
     "1375156": {
       "title": "उड़ता तीर",
       "releaseDate": "2026-10-23",
-      "popularity": 5.0083,
+      "popularity": 5.0394,
       "firstSeenAt": 1795578197872
     },
     "1384528": {
@@ -190,19 +192,13 @@
     "1433568": {
       "title": "粽邪4：坤蒂拉娜",
       "releaseDate": "2026-10-23",
-      "popularity": 2.5658,
+      "popularity": 2.6483,
       "firstSeenAt": 1795578197872
     },
     "1452168": {
       "title": "Behemoth!",
       "releaseDate": "2026-12-04",
       "popularity": 8.9378,
-      "firstSeenAt": 1795578197872
-    },
-    "1457866": {
-      "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
-      "releaseDate": "2026-11-25",
-      "popularity": 24.2152,
       "firstSeenAt": 1795578197872
     },
     "1461490": {
@@ -244,7 +240,7 @@
     "1590933": {
       "title": "汝、星のごとく",
       "releaseDate": "2026-11-27",
-      "popularity": 3.4278,
+      "popularity": 3.5782,
       "firstSeenAt": 1795616943472
     },
     "1599184": {
@@ -256,7 +252,7 @@
     "1618188": {
       "title": "GJLS: Berapi-Api",
       "releaseDate": "2026-11-05",
-      "popularity": 2.0379,
+      "popularity": 1.7358,
       "firstSeenAt": 1795649969916
     },
     "1657112": {
@@ -303,6 +299,13 @@
     }
   },
   "recentDrops": [
+    {
+      "id": "1457866",
+      "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "releaseDate": "2026-11-25",
+      "quality": "cam",
+      "detectedAt": 1795719878168
+    },
     {
       "id": "1400336",
       "title": "Focker In-Law",
