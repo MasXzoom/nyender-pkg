@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795649969916,
-  "lastWakeupAt": 1795649969916,
+  "updatedAt": 1795681635623,
+  "lastWakeupAt": 1795681635623,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -56,13 +56,15 @@
     438631,
     1176962,
     1129104,
-    1532610
+    1532610,
+    1400336,
+    1280115
   ],
   "pendingMovies": {
     "1581": {
       "title": "The Holiday",
       "releaseDate": "2006-12-08",
-      "popularity": 12.1447,
+      "popularity": 13.1338,
       "firstSeenAt": 1795578197872
     },
     "656908": {
@@ -74,19 +76,19 @@
     "940009": {
       "title": "Ray Gunn",
       "releaseDate": "2026-12-04",
-      "popularity": 7.2439,
+      "popularity": 7.5744,
       "firstSeenAt": 1795578197872
     },
     "1003596": {
       "title": "Avengers: Doomsday",
       "releaseDate": "2026-12-18",
-      "popularity": 248.5211,
+      "popularity": 261.3654,
       "firstSeenAt": 1795578197872
     },
     "1045968": {
       "title": "The Fox",
       "releaseDate": "2026-12-04",
-      "popularity": 3.8567,
+      "popularity": 4.4444,
       "firstSeenAt": 1795649969916
     },
     "1088548": {
@@ -104,37 +106,37 @@
     "1117898": {
       "title": "The Cat in the Hat",
       "releaseDate": "2026-11-06",
-      "popularity": 39.9058,
+      "popularity": 35.4735,
       "firstSeenAt": 1795578197872
     },
     "1154730": {
       "title": "La Gradiva",
       "releaseDate": "2026-12-18",
-      "popularity": 5.9342,
+      "popularity": 5.5358,
       "firstSeenAt": 1795616943472
     },
     "1170608": {
       "title": "Dune: Part Three",
       "releaseDate": "2026-12-18",
-      "popularity": 48.0643,
+      "popularity": 52.0432,
       "firstSeenAt": 1795578197872
     },
     "1287520": {
       "title": "November 1963",
       "releaseDate": "2026-12-04",
-      "popularity": 6.1815,
+      "popularity": 3.9525,
       "firstSeenAt": 1795578197872
     },
     "1289720": {
       "title": "Pok Ame Ame",
       "releaseDate": "2026-12-10",
-      "popularity": 0.297,
+      "popularity": 0.342,
       "firstSeenAt": 1795578197872
     },
     "1300926": {
       "title": "The Angry Birds Movie 3",
       "releaseDate": "2026-12-23",
-      "popularity": 9.8403,
+      "popularity": 10.6463,
       "firstSeenAt": 1795578197872
     },
     "1319525": {
@@ -152,43 +154,37 @@
     "1384528": {
       "title": "ஓ.ம்: ஆபரேஷன் மோல்",
       "releaseDate": "2026-11-19",
-      "popularity": 37.8574,
+      "popularity": 33.377,
       "firstSeenAt": 1795578197872
     },
     "1391239": {
       "title": "The Debut",
       "releaseDate": "2026-12-11",
-      "popularity": 7.5444,
+      "popularity": 7.7909,
       "firstSeenAt": 1795578197872
     },
     "1398505": {
       "title": "Desember Jani",
       "releaseDate": "2026-12-10",
-      "popularity": 0.6826,
-      "firstSeenAt": 1795578197872
-    },
-    "1400336": {
-      "title": "Focker In-Law",
-      "releaseDate": "2026-11-25",
-      "popularity": 48.7467,
+      "popularity": 0.6275,
       "firstSeenAt": 1795578197872
     },
     "1406492": {
       "title": "La venganza del Charro Negro",
       "releaseDate": "2026-10-22",
-      "popularity": 48.4911,
+      "popularity": 56.0999,
       "firstSeenAt": 1795616943472
     },
     "1408207": {
       "title": "Zero A.D.: The Birth of Christ",
       "releaseDate": "2026-12-11",
-      "popularity": 5.1374,
+      "popularity": 6.2079,
       "firstSeenAt": 1795578197872
     },
     "1422041": {
       "title": "LA BOLA NEGRA",
       "releaseDate": "2026-10-16",
-      "popularity": 84.8727,
+      "popularity": 72.8745,
       "firstSeenAt": 1795578197872
     },
     "1433568": {
@@ -200,13 +196,13 @@
     "1452168": {
       "title": "Behemoth!",
       "releaseDate": "2026-12-04",
-      "popularity": 7.8897,
+      "popularity": 8.9378,
       "firstSeenAt": 1795578197872
     },
     "1457866": {
       "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
       "releaseDate": "2026-11-25",
-      "popularity": 18.4616,
+      "popularity": 24.2152,
       "firstSeenAt": 1795578197872
     },
     "1461490": {
@@ -224,7 +220,7 @@
     "1538497": {
       "title": "Hexed",
       "releaseDate": "2026-11-25",
-      "popularity": 58.7667,
+      "popularity": 69.8904,
       "firstSeenAt": 1795578197872
     },
     "1545057": {
@@ -236,13 +232,13 @@
     "1561834": {
       "title": "Son Yemek",
       "releaseDate": "2026-11-18",
-      "popularity": 37.2227,
+      "popularity": 33.654,
       "firstSeenAt": 1795578197872
     },
     "1586748": {
       "title": "Ratu Petaka",
       "releaseDate": "2026-12-03",
-      "popularity": 0.9566,
+      "popularity": 1.3589,
       "firstSeenAt": 1795578197872
     },
     "1590933": {
@@ -254,7 +250,7 @@
     "1599184": {
       "title": "斗破苍穹剧场版：双帝之战",
       "releaseDate": "2026-11-22",
-      "popularity": 73.727,
+      "popularity": 69.0536,
       "firstSeenAt": 1795578197872
     },
     "1618188": {
@@ -266,19 +262,19 @@
     "1657112": {
       "title": "Meja Tanpa Laci",
       "releaseDate": "2026-12-03",
-      "popularity": 0.2242,
+      "popularity": 0.2102,
       "firstSeenAt": 1795578197872
     },
     "1691495": {
       "title": "Hajatan Setan",
       "releaseDate": "2026-12-03",
-      "popularity": 1.0229,
+      "popularity": 0.8606,
       "firstSeenAt": 1795578197872
     },
     "1718454": {
       "title": "Yang Datang dan Yang Pergi",
       "releaseDate": "2026-12-03",
-      "popularity": 0.8195,
+      "popularity": 0.869,
       "firstSeenAt": 1795578197872
     },
     "1720486": {
@@ -290,23 +286,37 @@
     "1732866": {
       "title": "3726 MDPL",
       "releaseDate": "2026-12-03",
-      "popularity": 1.7476,
+      "popularity": 1.8234,
       "firstSeenAt": 1795578197872
     },
     "1733142": {
       "title": "ARSIP 07: Rekaman Yang Tidak Pernah Dipublikasikan",
       "releaseDate": "2026-12-14",
-      "popularity": 0.1873,
+      "popularity": 0.13,
       "firstSeenAt": 1795578197872
     },
     "1771024": {
       "title": "12 Mile: Guiding the Archipelago",
       "releaseDate": "2026-12-10",
-      "popularity": 0.2232,
+      "popularity": 0.1818,
       "firstSeenAt": 1795578197872
     }
   },
   "recentDrops": [
+    {
+      "id": "1400336",
+      "title": "Focker In-Law",
+      "releaseDate": "2026-11-25",
+      "quality": "cam",
+      "detectedAt": 1795681635623
+    },
+    {
+      "id": "1280115",
+      "title": "Way of the Warrior Kid",
+      "releaseDate": "2026-11-24",
+      "quality": "hd",
+      "detectedAt": 1795681635623
+    },
     {
       "id": "1176962",
       "title": "Rose",
