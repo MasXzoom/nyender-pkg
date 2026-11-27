@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795745679461,
-  "lastWakeupAt": 1795745679461,
+  "updatedAt": 1795777172926,
+  "lastWakeupAt": 1795777172926,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -75,7 +75,7 @@
     "656908": {
       "title": "रामायणम्",
       "releaseDate": "2026-11-06",
-      "popularity": 95.0388,
+      "popularity": 86.9676,
       "firstSeenAt": 1795578197872
     },
     "940009": {
@@ -105,7 +105,7 @@
     "1103760": {
       "title": "Hamka: Awal Mula Vol. 3",
       "releaseDate": "2026-11-19",
-      "popularity": 2.7459,
+      "popularity": 2.7358,
       "firstSeenAt": 1795578197872
     },
     "1117898": {
@@ -135,13 +135,13 @@
     "1289720": {
       "title": "Pok Ame Ame",
       "releaseDate": "2026-12-10",
-      "popularity": 0.342,
+      "popularity": 0.2951,
       "firstSeenAt": 1795578197872
     },
     "1300926": {
       "title": "The Angry Birds Movie 3",
       "releaseDate": "2026-12-23",
-      "popularity": 10.6463,
+      "popularity": 10.3471,
       "firstSeenAt": 1795578197872
     },
     "1319525": {
@@ -153,7 +153,7 @@
     "1375156": {
       "title": "उड़ता तीर",
       "releaseDate": "2026-10-23",
-      "popularity": 5.0394,
+      "popularity": 4.4976,
       "firstSeenAt": 1795578197872
     },
     "1384528": {
@@ -171,7 +171,7 @@
     "1398505": {
       "title": "Desember Jani",
       "releaseDate": "2026-12-10",
-      "popularity": 0.6275,
+      "popularity": 0.5381,
       "firstSeenAt": 1795578197872
     },
     "1406492": {
@@ -189,7 +189,7 @@
     "1433568": {
       "title": "粽邪4：坤蒂拉娜",
       "releaseDate": "2026-10-23",
-      "popularity": 2.6483,
+      "popularity": 2.4304,
       "firstSeenAt": 1795578197872
     },
     "1452168": {
@@ -207,13 +207,13 @@
     "1503023": {
       "title": "重生2",
       "releaseDate": "2026-11-11",
-      "popularity": 2.1095,
+      "popularity": 1.7377,
       "firstSeenAt": 1795745679461
     },
     "1545057": {
       "title": "최종면접",
       "releaseDate": "2026-11-06",
-      "popularity": 1.8187,
+      "popularity": 1.5185,
       "firstSeenAt": 1795616943472
     },
     "1561834": {
@@ -225,13 +225,13 @@
     "1586748": {
       "title": "Ratu Petaka",
       "releaseDate": "2026-12-03",
-      "popularity": 1.3589,
+      "popularity": 1.156,
       "firstSeenAt": 1795578197872
     },
     "1590933": {
       "title": "汝、星のごとく",
       "releaseDate": "2026-11-27",
-      "popularity": 3.5782,
+      "popularity": 3.4962,
       "firstSeenAt": 1795616943472
     },
     "1599184": {
@@ -249,19 +249,19 @@
     "1657112": {
       "title": "Meja Tanpa Laci",
       "releaseDate": "2026-12-03",
-      "popularity": 0.2102,
+      "popularity": 0.3127,
       "firstSeenAt": 1795578197872
     },
     "1691495": {
       "title": "Hajatan Setan",
       "releaseDate": "2026-12-03",
-      "popularity": 0.8606,
+      "popularity": 0.8127,
       "firstSeenAt": 1795578197872
     },
     "1718454": {
       "title": "Yang Datang dan Yang Pergi",
       "releaseDate": "2026-12-03",
-      "popularity": 0.869,
+      "popularity": 0.7241,
       "firstSeenAt": 1795578197872
     },
     "1720486": {
@@ -273,19 +273,19 @@
     "1732866": {
       "title": "3726 MDPL",
       "releaseDate": "2026-12-03",
-      "popularity": 1.8234,
+      "popularity": 1.4938,
       "firstSeenAt": 1795578197872
     },
     "1733142": {
       "title": "ARSIP 07: Rekaman Yang Tidak Pernah Dipublikasikan",
       "releaseDate": "2026-12-14",
-      "popularity": 0.13,
+      "popularity": 0.0845,
       "firstSeenAt": 1795578197872
     },
     "1771024": {
       "title": "12 Mile: Guiding the Archipelago",
       "releaseDate": "2026-12-10",
-      "popularity": 0.1818,
+      "popularity": 0.1839,
       "firstSeenAt": 1795578197872
     }
   },
