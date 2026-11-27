@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795777172926,
-  "lastWakeupAt": 1795777172926,
+  "updatedAt": 1795809595324,
+  "lastWakeupAt": 1795809595324,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -63,7 +63,9 @@
     1457866,
     1538497,
     1422041,
-    1476614
+    1476614,
+    1780407,
+    1461490
   ],
   "pendingMovies": {
     "1581": {
@@ -110,7 +112,7 @@
     },
     "1117898": {
       "title": "The Cat in the Hat",
-      "releaseDate": "2026-11-06",
+      "releaseDate": "2026-10-31",
       "popularity": 32.8947,
       "firstSeenAt": 1795578197872
     },
@@ -198,12 +200,6 @@
       "popularity": 8.314,
       "firstSeenAt": 1795578197872
     },
-    "1461490": {
-      "title": "Hershey",
-      "releaseDate": "2026-11-25",
-      "popularity": 17.355,
-      "firstSeenAt": 1795578197872
-    },
     "1503023": {
       "title": "重生2",
       "releaseDate": "2026-11-11",
@@ -287,9 +283,22 @@
       "releaseDate": "2026-12-10",
       "popularity": 0.1839,
       "firstSeenAt": 1795578197872
+    },
+    "1791250": {
+      "title": "아기상어 크리스마스 스페셜: 산타 선발 대회",
+      "releaseDate": "2026-12-04",
+      "popularity": 0.5117,
+      "firstSeenAt": 1795809595324
     }
   },
   "recentDrops": [
+    {
+      "id": "1461490",
+      "title": "Hershey",
+      "releaseDate": "2026-11-25",
+      "quality": "cam",
+      "detectedAt": 1795809595324
+    },
     {
       "id": "1538497",
       "title": "Hexed",
