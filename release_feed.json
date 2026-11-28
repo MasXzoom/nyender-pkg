@@ -1,7 +1,7 @@
 {
   "bootstrapped": true,
-  "updatedAt": 1795809595324,
-  "lastWakeupAt": 1795809595324,
+  "updatedAt": 1795833856119,
+  "lastWakeupAt": 1795833856119,
   "knownStreamableIds": [
     1300968,
     969681,
@@ -65,7 +65,8 @@
     1422041,
     1476614,
     1780407,
-    1461490
+    1461490,
+    1480665
   ],
   "pendingMovies": {
     "1581": {
@@ -88,8 +89,8 @@
     },
     "1003596": {
       "title": "Avengers: Doomsday",
-      "releaseDate": "2026-12-18",
-      "popularity": 263.0295,
+      "releaseDate": "2026-12-16",
+      "popularity": 263.6522,
       "firstSeenAt": 1795578197872
     },
     "1045968": {
@@ -112,7 +113,7 @@
     },
     "1117898": {
       "title": "The Cat in the Hat",
-      "releaseDate": "2026-10-31",
+      "releaseDate": "2026-11-06",
       "popularity": 32.8947,
       "firstSeenAt": 1795578197872
     },
@@ -124,8 +125,8 @@
     },
     "1170608": {
       "title": "Dune: Part Three",
-      "releaseDate": "2026-12-18",
-      "popularity": 51.2112,
+      "releaseDate": "2026-12-15",
+      "popularity": 53.5403,
       "firstSeenAt": 1795578197872
     },
     "1287520": {
@@ -149,7 +150,7 @@
     "1319525": {
       "title": "จีบซ้ำซ้ำ เฮนรี่จำไม่ได้",
       "releaseDate": "2026-10-23",
-      "popularity": 1.7519,
+      "popularity": 1.979,
       "firstSeenAt": 1795616943472
     },
     "1375156": {
@@ -179,7 +180,7 @@
     "1406492": {
       "title": "La venganza del Charro Negro",
       "releaseDate": "2026-10-22",
-      "popularity": 64.2103,
+      "popularity": 79.101,
       "firstSeenAt": 1795616943472
     },
     "1408207": {
@@ -200,6 +201,12 @@
       "popularity": 8.314,
       "firstSeenAt": 1795578197872
     },
+    "1473784": {
+      "title": "Bunker",
+      "releaseDate": "2026-12-11",
+      "popularity": 3.8604,
+      "firstSeenAt": 1795833856119
+    },
     "1503023": {
       "title": "重生2",
       "releaseDate": "2026-11-11",
@@ -215,7 +222,7 @@
     "1561834": {
       "title": "Son Yemek",
       "releaseDate": "2026-11-18",
-      "popularity": 28.2011,
+      "popularity": 23.5516,
       "firstSeenAt": 1795578197872
     },
     "1586748": {
@@ -223,6 +230,12 @@
       "releaseDate": "2026-12-03",
       "popularity": 1.156,
       "firstSeenAt": 1795578197872
+    },
+    "1590752": {
+      "title": "Pulang Kampung",
+      "releaseDate": "2026-11-26",
+      "popularity": 2.3036,
+      "firstSeenAt": 1795833856119
     },
     "1590933": {
       "title": "汝、星のごとく",
@@ -233,7 +246,7 @@
     "1599184": {
       "title": "斗破苍穹剧场版：双帝之战",
       "releaseDate": "2026-11-22",
-      "popularity": 63.1227,
+      "popularity": 52.8326,
       "firstSeenAt": 1795578197872
     },
     "1618188": {
@@ -292,6 +305,13 @@
     }
   },
   "recentDrops": [
+    {
+      "id": "1480665",
+      "title": "Quasimodo, l'âme de Paris",
+      "releaseDate": "2026-11-27",
+      "quality": "hd",
+      "detectedAt": 1795833856119
+    },
     {
       "id": "1461490",
       "title": "Hershey",
